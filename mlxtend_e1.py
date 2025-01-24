@@ -12,7 +12,12 @@
 #     name: python3
 # ---
 
-"""_summary_
+"""
+Aim: to have an example using FPgrowth from mlxtend.
+
+References:
+* FPgrowth in mlxtend: https://rasbt.github.io/mlxtend/user_guide/frequent_patterns/fpgrowth/
+
 jupytext --output mlxtend_e1.py mlxtend_e1.ipynb
 jupytext --output mlxtend_e1.ipynb mlxtend_e1.py
 """

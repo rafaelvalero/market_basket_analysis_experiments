@@ -12,9 +12,17 @@
 #     name: python3
 # ---
 
-"""_summary_
+"""
+Aim: to have an example using FPgrowth from PySpark.
+
+References:
+* FPgrowth in PySpark: https://spark.apache.org/docs/latest/ml-frequent-pattern-mining.html
+
 jupytext --output fpgrowth_e1.py fpgrowth_e1.ipynb
 jupytext --output fpgrowth_e1.ipynb fpgrowth_e1.py
+
+
+
 """
 from pyspark.sql import SparkSession
 from pyspark.ml.fpm import FPGrowth
