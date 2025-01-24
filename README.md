@@ -15,6 +15,8 @@ This is a Docker command that runs a Jupyter notebook image. Here's a breakdown 
 * `-v /Users/rafaelvalerofernandez/Desktop/repositories/pyspark_works:/home/jovyan/work`: Mounts your local folder `/Users/rafaelvalerofernandez/Desktop/repositories/pyspark_works` to the `/home/jovyan/work` folder inside the container. This allows you to access your files and work on them inside the Jupyter notebook.
 * `quay.io/jupyter/all-spark-notebook`: Specifies the Docker image to use. In this case, it's the Jupyter notebook image from Quay.io.
 
-To install jupytext and mlxtend library: `conda install jupytext mlxtend  -y`
+Pick up the address and open it in your browser.
+
+To install jupytext and mlxtend library: `conda install jupytext mlxtend  -y` in a terminal in your browser.
 
 I hope this helps! Let me know if you have any other questions.
