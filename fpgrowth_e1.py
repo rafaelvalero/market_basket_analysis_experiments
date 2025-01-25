@@ -81,7 +81,19 @@ output2 = model.associationRules.toPandas()
 output2
 
 
-output2.to_csv('associaton_rules_FPgrowth.csv')
+# +
+# sorted_df = df.sort_values(by=['Rank', 'Age'], ascending=[True, False], na_position='last')
+# print('\n Sorted DataFrame:')
+# -
+
+# output2 = output2.sort_values(by = ['antecedent','support'])
+output2 = output2.sort_values(axis=0,
+                    by = ['antecedent'],
+                    ascending=[True], 
+                    na_position='last')
+output2
+
+output2.to_csv('associaton_rules_FPgrowth.csv', index = False)
 
 # Saving
 orden_to_give = f'jupytext --output {NAME_NOTEBOOK}.py {NAME_NOTEBOOK}.ipynb'
@@ -90,6 +102,4 @@ subprocess.call(orden_to_give, shell=True)
 
 # Stop the SparkSession
 spark.stop()
-
-
 
