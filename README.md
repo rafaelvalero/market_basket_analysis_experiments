@@ -2,6 +2,7 @@
 
 This is to make some experiments / tutorial about market basket analysis and how to quickly set up and experimental sandbox.
 
+Here [youtube video tutorial](https://youtu.be/LR8k86NL1MA)
 
 # FPgrowth alternatives
 
@@ -70,3 +71,7 @@ You may need first to create the notebooks from the .py files:
 jupytext --output mlxtend_e1.ipynb mlxtend_e1.py
 jupytext --output fpgrowth_e1.ipynb fpgrowth_e1.py
 ```
+
+
+
+
